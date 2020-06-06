@@ -15,7 +15,7 @@ const ProfileScreen = ({ navigation }) => {
 	const reference = storage().ref('witcher-profile-pictures/' + currentEmail);
 
 	const options = {
-		title: 'Select Avatar',
+		title: 'Select picture',
 		storageOptions: {
 			skipBackup: true,
 			path: 'images'

@@ -1,0 +1,233 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.witchercompanion"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->/home/bugdroid/GitHub/WitcherCompanion/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->/home/bugdroid/GitHub/WitcherCompanion/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/home/bugdroid/GitHub/WitcherCompanion/android/app/src/main/AndroidManifest.xml:4:5-67
+11-->/home/bugdroid/GitHub/WitcherCompanion/android/app/src/main/AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.CAMERA" />
+12-->/home/bugdroid/GitHub/WitcherCompanion/android/app/src/main/AndroidManifest.xml:5:6-66
+12-->/home/bugdroid/GitHub/WitcherCompanion/android/app/src/main/AndroidManifest.xml:5:23-63
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->/home/bugdroid/GitHub/WitcherCompanion/android/app/src/main/AndroidManifest.xml:6:2-77
+13-->/home/bugdroid/GitHub/WitcherCompanion/android/app/src/main/AndroidManifest.xml:6:19-75
+14    <uses-permission android:name="android.permission.WAKE_LOCK" />
+14-->[:react-native-firebase_auth] /home/bugdroid/GitHub/WitcherCompanion/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:5-68
+14-->[:react-native-firebase_auth] /home/bugdroid/GitHub/WitcherCompanion/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:22-65
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- TODO(salakar) Not sure if this should be part of the package manifest or leave to users app manifest code? -->
+15-->[:react-native-firebase_auth] /home/bugdroid/GitHub/WitcherCompanion/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/release/AndroidManifest.xml:13:5-79
+15-->[:react-native-firebase_auth] /home/bugdroid/GitHub/WitcherCompanion/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/release/AndroidManifest.xml:13:22-76
+16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+16-->[:react-native-firebase_storage] /home/bugdroid/GitHub/WitcherCompanion/node_modules/@react-native-firebase/storage/android/build/intermediates/library_manifest/release/AndroidManifest.xml:15:5-80
+16-->[:react-native-firebase_storage] /home/bugdroid/GitHub/WitcherCompanion/node_modules/@react-native-firebase/storage/android/build/intermediates/library_manifest/release/AndroidManifest.xml:15:22-77
+17    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+17-->[com.google.firebase:firebase-iid:20.1.5] /home/bugdroid/.gradle/caches/transforms-2/files-2.1/ed783ed6254827bc46be3f89c881b86c/firebase-iid-20.1.5/AndroidManifest.xml:26:5-82
+17-->[com.google.firebase:firebase-iid:20.1.5] /home/bugdroid/.gradle/caches/transforms-2/files-2.1/ed783ed6254827bc46be3f89c881b86c/firebase-iid-20.1.5/AndroidManifest.xml:26:22-79
+18    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+18-->[com.google.android.gms:play-services-measurement:17.4.1] /home/bugdroid/.gradle/caches/transforms-2/files-2.1/c835347705c69f8598202e27770fc9d5/play-services-measurement-17.4.1/AndroidManifest.xml:26:5-110
+18-->[com.google.android.gms:play-services-measurement:17.4.1] /home/bugdroid/.gradle/caches/transforms-2/files-2.1/c835347705c69f8598202e27770fc9d5/play-services-measurement-17.4.1/AndroidManifest.xml:26:22-107
+19
+20    <application
+20-->/home/bugdroid/GitHub/WitcherCompanion/android/app/src/main/AndroidManifest.xml:8:5-27:19
+21        android:name="com.witchercompanion.MainApplication"
+21-->/home/bugdroid/GitHub/WitcherCompanion/android/app/src/main/AndroidManifest.xml:9:7-38
+22        android:allowBackup="false"
+22-->/home/bugdroid/GitHub/WitcherCompanion/android/app/src/main/AndroidManifest.xml:13:7-34
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.1.0] /home/bugdroid/.gradle/caches/transforms-2/files-2.1/5644a94d9f003a0b90383b8c36ca5e5e/core-1.1.0/AndroidManifest.xml:24:18-86
+24        android:icon="@mipmap/ic_launcher"
+24-->/home/bugdroid/GitHub/WitcherCompanion/android/app/src/main/AndroidManifest.xml:11:7-41
+25        android:label="@string/app_name"
+25-->/home/bugdroid/GitHub/WitcherCompanion/android/app/src/main/AndroidManifest.xml:10:7-39
+26        android:roundIcon="@mipmap/ic_launcher_round"
+26-->/home/bugdroid/GitHub/WitcherCompanion/android/app/src/main/AndroidManifest.xml:12:7-52
+27        android:theme="@style/AppTheme" >
+27-->/home/bugdroid/GitHub/WitcherCompanion/android/app/src/main/AndroidManifest.xml:14:7-38
+28        <activity
+28-->/home/bugdroid/GitHub/WitcherCompanion/android/app/src/main/AndroidManifest.xml:15:7-25:18
+29            android:name="com.witchercompanion.MainActivity"
+29-->/home/bugdroid/GitHub/WitcherCompanion/android/app/src/main/AndroidManifest.xml:16:9-37
+30            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+30-->/home/bugdroid/GitHub/WitcherCompanion/android/app/src/main/AndroidManifest.xml:18:9-86
+31            android:label="@string/app_name"
+31-->/home/bugdroid/GitHub/WitcherCompanion/android/app/src/main/AndroidManifest.xml:17:9-41
+32            android:launchMode="singleTask"
+32-->/home/bugdroid/GitHub/WitcherCompanion/android/app/src/main/AndroidManifest.xml:19:9-40
+33            android:windowSoftInputMode="adjustResize" >
+33-->/home/bugdroid/GitHub/WitcherCompanion/android/app/src/main/AndroidManifest.xml:20:9-51
+34            <intent-filter>
+34-->/home/bugdroid/GitHub/WitcherCompanion/android/app/src/main/AndroidManifest.xml:21:9-24:25
+35                <action android:name="android.intent.action.MAIN" />
+35-->/home/bugdroid/GitHub/WitcherCompanion/android/app/src/main/AndroidManifest.xml:22:13-65
+35-->/home/bugdroid/GitHub/WitcherCompanion/android/app/src/main/AndroidManifest.xml:22:21-62
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->/home/bugdroid/GitHub/WitcherCompanion/android/app/src/main/AndroidManifest.xml:23:13-73
+37-->/home/bugdroid/GitHub/WitcherCompanion/android/app/src/main/AndroidManifest.xml:23:23-70
+38            </intent-filter>
+39        </activity>
+40        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+40-->/home/bugdroid/GitHub/WitcherCompanion/android/app/src/main/AndroidManifest.xml:26:7-84
+40-->/home/bugdroid/GitHub/WitcherCompanion/android/app/src/main/AndroidManifest.xml:26:17-81
+41
+42        <provider
+42-->[:react-native-image-picker] /home/bugdroid/GitHub/WitcherCompanion/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:10:9-18:20
+43            android:name="com.imagepicker.FileProvider"
+43-->[:react-native-image-picker] /home/bugdroid/GitHub/WitcherCompanion/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:13-56
+44            android:authorities="com.witchercompanion.provider"
+44-->[:react-native-image-picker] /home/bugdroid/GitHub/WitcherCompanion/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:13-60
+45            android:exported="false"
+45-->[:react-native-image-picker] /home/bugdroid/GitHub/WitcherCompanion/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:13:13-37
+46            android:grantUriPermissions="true" >
+46-->[:react-native-image-picker] /home/bugdroid/GitHub/WitcherCompanion/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:14:13-47
+47            <meta-data
+47-->[:react-native-image-picker] /home/bugdroid/GitHub/WitcherCompanion/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:15:13-17:58
+48                android:name="android.support.FILE_PROVIDER_PATHS"
+48-->[:react-native-image-picker] /home/bugdroid/GitHub/WitcherCompanion/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:16:17-67
+49                android:resource="@xml/provider_paths" />
+49-->[:react-native-image-picker] /home/bugdroid/GitHub/WitcherCompanion/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:17:17-55
+50        </provider>
+51
+52        <service
+52-->[com.google.firebase:firebase-firestore:21.4.3] /home/bugdroid/.gradle/caches/transforms-2/files-2.1/7cc474a8a2a3fd0f7258b3f20c939c9f/jetified-firebase-firestore-21.4.3/AndroidManifest.xml:17:9-23:19
+53            android:name="com.google.firebase.components.ComponentDiscoveryService"
+53-->[com.google.firebase:firebase-firestore:21.4.3] /home/bugdroid/.gradle/caches/transforms-2/files-2.1/7cc474a8a2a3fd0f7258b3f20c939c9f/jetified-firebase-firestore-21.4.3/AndroidManifest.xml:18:13-84
+54            android:directBootAware="true"
+54-->[com.google.firebase:firebase-common:19.3.0] /home/bugdroid/.gradle/caches/transforms-2/files-2.1/fe670228a18c29a308c22cf48c813b95/jetified-firebase-common-19.3.0/AndroidManifest.xml:34:13-43
+55            android:exported="false" >
+55-->[com.google.firebase:firebase-firestore:21.4.3] /home/bugdroid/.gradle/caches/transforms-2/files-2.1/7cc474a8a2a3fd0f7258b3f20c939c9f/jetified-firebase-firestore-21.4.3/AndroidManifest.xml:19:13-37
+56            <meta-data
+56-->[com.google.firebase:firebase-firestore:21.4.3] /home/bugdroid/.gradle/caches/transforms-2/files-2.1/7cc474a8a2a3fd0f7258b3f20c939c9f/jetified-firebase-firestore-21.4.3/AndroidManifest.xml:20:13-22:85
+57                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+57-->[com.google.firebase:firebase-firestore:21.4.3] /home/bugdroid/.gradle/caches/transforms-2/files-2.1/7cc474a8a2a3fd0f7258b3f20c939c9f/jetified-firebase-firestore-21.4.3/AndroidManifest.xml:21:17-111
+58                android:value="com.google.firebase.components.ComponentRegistrar" />
+58-->[com.google.firebase:firebase-firestore:21.4.3] /home/bugdroid/.gradle/caches/transforms-2/files-2.1/7cc474a8a2a3fd0f7258b3f20c939c9f/jetified-firebase-firestore-21.4.3/AndroidManifest.xml:22:17-82
+59            <meta-data
+59-->[com.google.firebase:firebase-auth:19.3.1] /home/bugdroid/.gradle/caches/transforms-2/files-2.1/d9bb46e8bce0cfe4ee952557747c03ef/firebase-auth-19.3.1/AndroidManifest.xml:36:13-38:85
+60                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+60-->[com.google.firebase:firebase-auth:19.3.1] /home/bugdroid/.gradle/caches/transforms-2/files-2.1/d9bb46e8bce0cfe4ee952557747c03ef/firebase-auth-19.3.1/AndroidManifest.xml:37:17-109
+61                android:value="com.google.firebase.components.ComponentRegistrar" />
+61-->[com.google.firebase:firebase-auth:19.3.1] /home/bugdroid/.gradle/caches/transforms-2/files-2.1/d9bb46e8bce0cfe4ee952557747c03ef/firebase-auth-19.3.1/AndroidManifest.xml:38:17-82
+62            <meta-data
+62-->[com.google.firebase:firebase-storage:19.1.1] /home/bugdroid/.gradle/caches/transforms-2/files-2.1/511c961d364837eaaf02c78f50eb9ce3/firebase-storage-19.1.1/AndroidManifest.xml:33:13-35:85
+63                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+63-->[com.google.firebase:firebase-storage:19.1.1] /home/bugdroid/.gradle/caches/transforms-2/files-2.1/511c961d364837eaaf02c78f50eb9ce3/firebase-storage-19.1.1/AndroidManifest.xml:34:17-107
+64                android:value="com.google.firebase.components.ComponentRegistrar" />
+64-->[com.google.firebase:firebase-storage:19.1.1] /home/bugdroid/.gradle/caches/transforms-2/files-2.1/511c961d364837eaaf02c78f50eb9ce3/firebase-storage-19.1.1/AndroidManifest.xml:35:17-82
+65            <meta-data
+65-->[com.google.android.gms:play-services-measurement-api:17.4.1] /home/bugdroid/.gradle/caches/transforms-2/files-2.1/17a7ece950741a755abfeed58077a9c1/play-services-measurement-api-17.4.1/AndroidManifest.xml:30:13-32:85
+66                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+66-->[com.google.android.gms:play-services-measurement-api:17.4.1] /home/bugdroid/.gradle/caches/transforms-2/files-2.1/17a7ece950741a755abfeed58077a9c1/play-services-measurement-api-17.4.1/AndroidManifest.xml:31:17-139
+67                android:value="com.google.firebase.components.ComponentRegistrar" />
+67-->[com.google.android.gms:play-services-measurement-api:17.4.1] /home/bugdroid/.gradle/caches/transforms-2/files-2.1/17a7ece950741a755abfeed58077a9c1/play-services-measurement-api-17.4.1/AndroidManifest.xml:32:17-82
+68            <meta-data
+68-->[com.google.firebase:firebase-iid:20.1.5] /home/bugdroid/.gradle/caches/transforms-2/files-2.1/ed783ed6254827bc46be3f89c881b86c/firebase-iid-20.1.5/AndroidManifest.xml:32:13-34:85
+69                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+69-->[com.google.firebase:firebase-iid:20.1.5] /home/bugdroid/.gradle/caches/transforms-2/files-2.1/ed783ed6254827bc46be3f89c881b86c/firebase-iid-20.1.5/AndroidManifest.xml:33:17-96
+70                android:value="com.google.firebase.components.ComponentRegistrar" />
+70-->[com.google.firebase:firebase-iid:20.1.5] /home/bugdroid/.gradle/caches/transforms-2/files-2.1/ed783ed6254827bc46be3f89c881b86c/firebase-iid-20.1.5/AndroidManifest.xml:34:17-82
+71            <meta-data
+71-->[com.google.firebase:firebase-installations:16.2.1] /home/bugdroid/.gradle/caches/transforms-2/files-2.1/d4a520091a1cf3147677db24e77b95ad/firebase-installations-16.2.1/AndroidManifest.xml:17:13-19:85
+72                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+72-->[com.google.firebase:firebase-installations:16.2.1] /home/bugdroid/.gradle/caches/transforms-2/files-2.1/d4a520091a1cf3147677db24e77b95ad/firebase-installations-16.2.1/AndroidManifest.xml:18:17-127
+73                android:value="com.google.firebase.components.ComponentRegistrar" />
+73-->[com.google.firebase:firebase-installations:16.2.1] /home/bugdroid/.gradle/caches/transforms-2/files-2.1/d4a520091a1cf3147677db24e77b95ad/firebase-installations-16.2.1/AndroidManifest.xml:19:17-82
+74        </service>
+75
+76        <activity
+76-->[com.google.firebase:firebase-auth:19.3.1] /home/bugdroid/.gradle/caches/transforms-2/files-2.1/d9bb46e8bce0cfe4ee952557747c03ef/firebase-auth-19.3.1/AndroidManifest.xml:24:9-31:50
+77            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+77-->[com.google.firebase:firebase-auth:19.3.1] /home/bugdroid/.gradle/caches/transforms-2/files-2.1/d9bb46e8bce0cfe4ee952557747c03ef/firebase-auth-19.3.1/AndroidManifest.xml:25:13-85
+78            android:excludeFromRecents="true"
+78-->[com.google.firebase:firebase-auth:19.3.1] /home/bugdroid/.gradle/caches/transforms-2/files-2.1/d9bb46e8bce0cfe4ee952557747c03ef/firebase-auth-19.3.1/AndroidManifest.xml:26:13-46
+79            android:exported="true"
+79-->[com.google.firebase:firebase-auth:19.3.1] /home/bugdroid/.gradle/caches/transforms-2/files-2.1/d9bb46e8bce0cfe4ee952557747c03ef/firebase-auth-19.3.1/AndroidManifest.xml:27:13-36
+80            android:launchMode="singleTask"
+80-->[com.google.firebase:firebase-auth:19.3.1] /home/bugdroid/.gradle/caches/transforms-2/files-2.1/d9bb46e8bce0cfe4ee952557747c03ef/firebase-auth-19.3.1/AndroidManifest.xml:28:13-44
+81            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+81-->[com.google.firebase:firebase-auth:19.3.1] /home/bugdroid/.gradle/caches/transforms-2/files-2.1/d9bb46e8bce0cfe4ee952557747c03ef/firebase-auth-19.3.1/AndroidManifest.xml:29:13-102
+82            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+82-->[com.google.firebase:firebase-auth:19.3.1] /home/bugdroid/.gradle/caches/transforms-2/files-2.1/d9bb46e8bce0cfe4ee952557747c03ef/firebase-auth-19.3.1/AndroidManifest.xml:30:13-72
+83
+84        <receiver
+84-->[com.google.firebase:firebase-iid:20.1.5] /home/bugdroid/.gradle/caches/transforms-2/files-2.1/ed783ed6254827bc46be3f89c881b86c/firebase-iid-20.1.5/AndroidManifest.xml:37:9-44:20
+85            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+85-->[com.google.firebase:firebase-iid:20.1.5] /home/bugdroid/.gradle/caches/transforms-2/files-2.1/ed783ed6254827bc46be3f89c881b86c/firebase-iid-20.1.5/AndroidManifest.xml:38:13-78
+86            android:exported="true"
+86-->[com.google.firebase:firebase-iid:20.1.5] /home/bugdroid/.gradle/caches/transforms-2/files-2.1/ed783ed6254827bc46be3f89c881b86c/firebase-iid-20.1.5/AndroidManifest.xml:39:13-36
+87            android:permission="com.google.android.c2dm.permission.SEND" >
+87-->[com.google.firebase:firebase-iid:20.1.5] /home/bugdroid/.gradle/caches/transforms-2/files-2.1/ed783ed6254827bc46be3f89c881b86c/firebase-iid-20.1.5/AndroidManifest.xml:40:13-73
+88            <intent-filter>
+88-->[com.google.firebase:firebase-iid:20.1.5] /home/bugdroid/.gradle/caches/transforms-2/files-2.1/ed783ed6254827bc46be3f89c881b86c/firebase-iid-20.1.5/AndroidManifest.xml:41:13-43:29
+89                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+89-->[com.google.firebase:firebase-iid:20.1.5] /home/bugdroid/.gradle/caches/transforms-2/files-2.1/ed783ed6254827bc46be3f89c881b86c/firebase-iid-20.1.5/AndroidManifest.xml:42:17-81
+89-->[com.google.firebase:firebase-iid:20.1.5] /home/bugdroid/.gradle/caches/transforms-2/files-2.1/ed783ed6254827bc46be3f89c881b86c/firebase-iid-20.1.5/AndroidManifest.xml:42:25-78
+90            </intent-filter>
+91        </receiver>
+92
+93        <activity
+93-->[com.google.android.gms:play-services-base:17.1.0] /home/bugdroid/.gradle/caches/transforms-2/files-2.1/3959cc7c4a76d5bd6c1745e2e05912dc/play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+94            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+94-->[com.google.android.gms:play-services-base:17.1.0] /home/bugdroid/.gradle/caches/transforms-2/files-2.1/3959cc7c4a76d5bd6c1745e2e05912dc/play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+95            android:exported="false"
+95-->[com.google.android.gms:play-services-base:17.1.0] /home/bugdroid/.gradle/caches/transforms-2/files-2.1/3959cc7c4a76d5bd6c1745e2e05912dc/play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+96            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+96-->[com.google.android.gms:play-services-base:17.1.0] /home/bugdroid/.gradle/caches/transforms-2/files-2.1/3959cc7c4a76d5bd6c1745e2e05912dc/play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+97
+98        <provider
+98-->[com.google.firebase:firebase-common:19.3.0] /home/bugdroid/.gradle/caches/transforms-2/files-2.1/fe670228a18c29a308c22cf48c813b95/jetified-firebase-common-19.3.0/AndroidManifest.xml:26:9-30:39
+99            android:name="com.google.firebase.provider.FirebaseInitProvider"
+99-->[com.google.firebase:firebase-common:19.3.0] /home/bugdroid/.gradle/caches/transforms-2/files-2.1/fe670228a18c29a308c22cf48c813b95/jetified-firebase-common-19.3.0/AndroidManifest.xml:27:13-77
+100            android:authorities="com.witchercompanion.firebaseinitprovider"
+100-->[com.google.firebase:firebase-common:19.3.0] /home/bugdroid/.gradle/caches/transforms-2/files-2.1/fe670228a18c29a308c22cf48c813b95/jetified-firebase-common-19.3.0/AndroidManifest.xml:28:13-72
+101            android:exported="false"
+101-->[com.google.firebase:firebase-common:19.3.0] /home/bugdroid/.gradle/caches/transforms-2/files-2.1/fe670228a18c29a308c22cf48c813b95/jetified-firebase-common-19.3.0/AndroidManifest.xml:29:13-37
+102            android:initOrder="100" />
+102-->[com.google.firebase:firebase-common:19.3.0] /home/bugdroid/.gradle/caches/transforms-2/files-2.1/fe670228a18c29a308c22cf48c813b95/jetified-firebase-common-19.3.0/AndroidManifest.xml:30:13-36
+103
+104        <receiver
+104-->[com.google.android.gms:play-services-measurement:17.4.1] /home/bugdroid/.gradle/caches/transforms-2/files-2.1/c835347705c69f8598202e27770fc9d5/play-services-measurement-17.4.1/AndroidManifest.xml:29:9-33:20
+105            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+105-->[com.google.android.gms:play-services-measurement:17.4.1] /home/bugdroid/.gradle/caches/transforms-2/files-2.1/c835347705c69f8598202e27770fc9d5/play-services-measurement-17.4.1/AndroidManifest.xml:30:13-85
+106            android:enabled="true"
+106-->[com.google.android.gms:play-services-measurement:17.4.1] /home/bugdroid/.gradle/caches/transforms-2/files-2.1/c835347705c69f8598202e27770fc9d5/play-services-measurement-17.4.1/AndroidManifest.xml:31:13-35
+107            android:exported="false" >
+107-->[com.google.android.gms:play-services-measurement:17.4.1] /home/bugdroid/.gradle/caches/transforms-2/files-2.1/c835347705c69f8598202e27770fc9d5/play-services-measurement-17.4.1/AndroidManifest.xml:32:13-37
+108        </receiver>
+109
+110        <service
+110-->[com.google.android.gms:play-services-measurement:17.4.1] /home/bugdroid/.gradle/caches/transforms-2/files-2.1/c835347705c69f8598202e27770fc9d5/play-services-measurement-17.4.1/AndroidManifest.xml:35:9-38:40
+111            android:name="com.google.android.gms.measurement.AppMeasurementService"
+111-->[com.google.android.gms:play-services-measurement:17.4.1] /home/bugdroid/.gradle/caches/transforms-2/files-2.1/c835347705c69f8598202e27770fc9d5/play-services-measurement-17.4.1/AndroidManifest.xml:36:13-84
+112            android:enabled="true"
+112-->[com.google.android.gms:play-services-measurement:17.4.1] /home/bugdroid/.gradle/caches/transforms-2/files-2.1/c835347705c69f8598202e27770fc9d5/play-services-measurement-17.4.1/AndroidManifest.xml:37:13-35
+113            android:exported="false" />
+113-->[com.google.android.gms:play-services-measurement:17.4.1] /home/bugdroid/.gradle/caches/transforms-2/files-2.1/c835347705c69f8598202e27770fc9d5/play-services-measurement-17.4.1/AndroidManifest.xml:38:13-37
+114        <service
+114-->[com.google.android.gms:play-services-measurement:17.4.1] /home/bugdroid/.gradle/caches/transforms-2/files-2.1/c835347705c69f8598202e27770fc9d5/play-services-measurement-17.4.1/AndroidManifest.xml:39:9-43:72
+115            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+115-->[com.google.android.gms:play-services-measurement:17.4.1] /home/bugdroid/.gradle/caches/transforms-2/files-2.1/c835347705c69f8598202e27770fc9d5/play-services-measurement-17.4.1/AndroidManifest.xml:40:13-87
+116            android:enabled="true"
+116-->[com.google.android.gms:play-services-measurement:17.4.1] /home/bugdroid/.gradle/caches/transforms-2/files-2.1/c835347705c69f8598202e27770fc9d5/play-services-measurement-17.4.1/AndroidManifest.xml:41:13-35
+117            android:exported="false"
+117-->[com.google.android.gms:play-services-measurement:17.4.1] /home/bugdroid/.gradle/caches/transforms-2/files-2.1/c835347705c69f8598202e27770fc9d5/play-services-measurement-17.4.1/AndroidManifest.xml:42:13-37
+118            android:permission="android.permission.BIND_JOB_SERVICE" />
+118-->[com.google.android.gms:play-services-measurement:17.4.1] /home/bugdroid/.gradle/caches/transforms-2/files-2.1/c835347705c69f8598202e27770fc9d5/play-services-measurement-17.4.1/AndroidManifest.xml:43:13-69
+119
+120        <meta-data
+120-->[com.google.android.gms:play-services-basement:17.0.0] /home/bugdroid/.gradle/caches/transforms-2/files-2.1/98c42f14bee137de084fa6a5329b8534/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+121            android:name="com.google.android.gms.version"
+121-->[com.google.android.gms:play-services-basement:17.0.0] /home/bugdroid/.gradle/caches/transforms-2/files-2.1/98c42f14bee137de084fa6a5329b8534/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+122            android:value="@integer/google_play_services_version" />
+122-->[com.google.android.gms:play-services-basement:17.0.0] /home/bugdroid/.gradle/caches/transforms-2/files-2.1/98c42f14bee137de084fa6a5329b8534/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+123    </application>
+124
+125</manifest>

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/bugdroid/ReactNativeProjects/WitcherCompanion/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
+            "outputFile": "/home/bugdroid/GitHub/WitcherCompanion/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
             "map": [
                 {
                     "source": "/home/bugdroid/.gradle/caches/transforms-2/files-2.1/3ecf98a7957f4468ca001808708ebdc6/cardview-1.0.0/res/values-v23/values-v23.xml",

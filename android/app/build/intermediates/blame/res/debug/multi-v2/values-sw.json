@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/bugdroid/ReactNativeProjects/WitcherCompanion/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw/values-sw.xml",
+            "outputFile": "/home/bugdroid/GitHub/WitcherCompanion/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw/values-sw.xml",
             "map": [
                 {
                     "source": "/home/bugdroid/.gradle/caches/transforms-2/files-2.1/3959cc7c4a76d5bd6c1745e2e05912dc/play-services-base-17.1.0/res/values-sw/values.xml",

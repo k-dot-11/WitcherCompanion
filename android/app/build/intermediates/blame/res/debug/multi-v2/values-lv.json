@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/bugdroid/ReactNativeProjects/WitcherCompanion/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-lv/values-lv.xml",
+            "outputFile": "/home/bugdroid/GitHub/WitcherCompanion/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-lv/values-lv.xml",
             "map": [
                 {
                     "source": "/home/bugdroid/.gradle/caches/transforms-2/files-2.1/008f243bf6dd08f82e37115d7cd7d56c/appcompat-1.1.0/res/values-lv/values-lv.xml",

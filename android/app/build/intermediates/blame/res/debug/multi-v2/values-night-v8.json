@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/bugdroid/ReactNativeProjects/WitcherCompanion/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml",
+            "outputFile": "/home/bugdroid/GitHub/WitcherCompanion/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml",
             "map": [
                 {
                     "source": "/home/bugdroid/.gradle/caches/transforms-2/files-2.1/91cce03d19de29395edb51be931978de/material-1.1.0/res/values-night-v8/values-night-v8.xml",

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">727528877876-d2ep1v6e77j3vqpj1ljlq2bfcod0bir3.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://witcher-companion-1511.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">727528877876</string>
+    <string name="google_api_key" translatable="false">AIzaSyDOSrMSj6wmYm7dLoOwaXWWBB_RbHV26uU</string>
+    <string name="google_app_id" translatable="false">1:727528877876:android:55988a16fe545ba553bf61</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDOSrMSj6wmYm7dLoOwaXWWBB_RbHV26uU</string>
+    <string name="google_storage_bucket" translatable="false">witcher-companion-1511.appspot.com</string>
+    <string name="project_id" translatable="false">witcher-companion-1511</string>
+</resources>
