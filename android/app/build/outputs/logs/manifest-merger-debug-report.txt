@@ -19,6 +19,7 @@ MERGED from [:react-native-image-picker] /home/bugdroid/GitHub/WitcherCompanion/
 MERGED from [:react-native-reanimated] /home/bugdroid/GitHub/WitcherCompanion/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-safe-area-context] /home/bugdroid/GitHub/WitcherCompanion/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-screens] /home/bugdroid/GitHub/WitcherCompanion/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-svg] /home/bugdroid/GitHub/WitcherCompanion/node_modules/react-native-svg/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-vector-icons] /home/bugdroid/GitHub/WitcherCompanion/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [com.facebook.react:react-native:0.62.2] /home/bugdroid/.gradle/caches/transforms-2/files-2.1/e02810eb24c564275e59743e84f39775/jetified-react-native-0.62.2/AndroidManifest.xml:2:1-13:12
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/bugdroid/.gradle/caches/transforms-2/files-2.1/3a50861bf9424135f9d1f8134a5c6c92/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
@@ -293,6 +294,8 @@ MERGED from [:react-native-safe-area-context] /home/bugdroid/GitHub/WitcherCompa
 MERGED from [:react-native-safe-area-context] /home/bugdroid/GitHub/WitcherCompanion/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-screens] /home/bugdroid/GitHub/WitcherCompanion/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-screens] /home/bugdroid/GitHub/WitcherCompanion/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-svg] /home/bugdroid/GitHub/WitcherCompanion/node_modules/react-native-svg/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-svg] /home/bugdroid/GitHub/WitcherCompanion/node_modules/react-native-svg/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-vector-icons] /home/bugdroid/GitHub/WitcherCompanion/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-vector-icons] /home/bugdroid/GitHub/WitcherCompanion/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.62.2] /home/bugdroid/.gradle/caches/transforms-2/files-2.1/e02810eb24c564275e59743e84f39775/jetified-react-native-0.62.2/AndroidManifest.xml:7:5-9:41
