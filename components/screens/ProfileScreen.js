@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { View, StyleSheet } from 'react-native';
-import { Avatar, Appbar, Text, Button, Switch, Checkbox } from 'react-native-paper';
+import { Avatar, Appbar, Text, Button, Switch, Checkbox, ActivityIndicator } from 'react-native-paper';
 import ImagePicker from 'react-native-image-picker';
 import firebase, { utils } from '@react-native-firebase/app';
 import firestore from '@react-native-firebase/firestore';
@@ -12,6 +12,7 @@ const ProfileScreen = ({ navigation }) => {
 	const [ imageSource, setImageSource ] = useState('boo');
 	const [ userName, setUserName ] = useState('');
 	const [ path, setPath ] = useState('');
+	const [ loading, setLoading ] = useState(true);
 	const reference = storage().ref('witcher-profile-pictures/' + currentEmail);
 
 	const options = {
@@ -22,6 +23,13 @@ const ProfileScreen = ({ navigation }) => {
 		}
 	};
 
+	// function setDP() {
+	// 	reference.putFile(path);
+	// 	console.log('path set')
+	// 	reference.getDownloadURL().then((url) => changeDpLink(url));
+	// 	console.log('url set')
+	// };
+
 	const userDocument = firestore().collection('witchers').doc(currentEmail).get().then((documentSnapshot) => {
 		if (documentSnapshot.exists) {
 			setUserName(documentSnapshot.data().name);
@@ -29,24 +37,27 @@ const ProfileScreen = ({ navigation }) => {
 		}
 	});
 
-	const changeDpLink = (url) => {
-		firestore()
-			.collection('witchers')
-			.doc(currentEmail)
-			.update({
-				dplink: url
-			})
-			.then(() => {
-				console.log('User updated!');
-			});
-	};
+	useEffect(
+		() => {
+			reference.getDownloadURL().then((url) => {
+				firestore()
+					.collection('witchers')
+					.doc(currentEmail)
+					.update({
+						dplink: url
+					})
+					.then(() => {
+						console.log('User updated!');
+					});
 
-	
+				setImageSource(url);
+				setLoading(false);
+			});
+		},
+		[ imageSource ]
+	);
 
 	return (
-
-		
-
 		<View style={styles.mainContainer}>
 			<Appbar style={styles.appbar}>
 				<Appbar.Action
@@ -72,15 +83,18 @@ const ProfileScreen = ({ navigation }) => {
 							} else if (response.error) {
 								console.log('ImagePicker Error: ', response.error);
 							} else {
-								setPath(response.path);
+								setLoading(true);
+								reference.putFile(response.path).then(() => {
+									console.log('Success');
+									setImageSource('sdg');
+								});
 							}
 						});
-						await reference.putFile(path);
-						await reference.getDownloadURL().then((url) => changeDpLink(url));
 					}}
 				/>
 			</Appbar>
 			<Avatar.Image style={styles.avatar} size={180} source={{ uri: imageSource }} />
+			<ActivityIndicator color={'white'} style={styles.activityIndicator} animating={loading} />
 
 			<Text style={styles.nameText}>{userName}</Text>
 			<Text style={styles.email}>{currentEmail}</Text>
@@ -113,6 +127,10 @@ const styles = StyleSheet.create({
 		fontSize: 16,
 		marginTop: 10,
 		color: 'white'
+	},
+	activityIndicator: {
+		position: 'absolute',
+		top: 158
 	}
 });
 
